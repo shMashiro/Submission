@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-day_df = pd.read_csv('../data/day.csv')
+day_df = pd.read_csv('./data/day.csv')
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 
 # Sidebar untuk pemilihan tanggal dan filter lainnya
